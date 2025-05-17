@@ -10,7 +10,6 @@ A dynamic React application that helps users build, manage, and save recipes eff
 - 💻 Persistent data via `localStorage`
 - 🎨 Dark/light theme toggle
 - 🖨️ Print-friendly view
-- 📋 Drag-and-drop ingredient reordering
 - ✅ Input validation and user-friendly alerts
 - 📱 Responsive UI with Tailwind CSS 
 
