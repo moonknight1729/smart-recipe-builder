@@ -12,7 +12,7 @@ A dynamic React application that helps users build, manage, and save recipes eff
 - 🖨️ Print-friendly view
 - 📋 Drag-and-drop ingredient reordering
 - ✅ Input validation and user-friendly alerts
-- 📱 Responsive UI with Tailwind CSS (Food delivery dashboard-style theme)
+- 📱 Responsive UI with Tailwind CSS 
 
 ## 🖼️ UI Preview
 
@@ -33,3 +33,15 @@ A dynamic React application that helps users build, manage, and save recipes eff
 ```bash
 git clone https://github.com/your-username/smart-recipe-builder.git
 cd smart-recipe-builder
+
+### 2. Install dependencies
+bash
+Copy
+Edit
+npm install
+
+3. Start the development server
+bash
+Copy
+Edit
+npm run dev
