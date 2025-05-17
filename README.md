@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+# 🧠 Smart Recipe Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic React application that helps users build, manage, and save recipes efficiently. Tailored for ease of use, responsive design, and smart features like ingredient adjustment, JSON import/export, and more.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add, edit, and delete ingredients
+- 📦 Adjust ingredient quantities based on servings
+- 💾 Save and load recipes via JSON
+- 💻 Persistent data via `localStorage`
+- 🎨 Dark/light theme toggle
+- 🖨️ Print-friendly view
+- 📋 Drag-and-drop ingredient reordering
+- ✅ Input validation and user-friendly alerts
+- 📱 Responsive UI with Tailwind CSS (Food delivery dashboard-style theme)
 
-## Expanding the ESLint configuration
+## 🖼️ UI Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![Smart Recipe Builder UI Preview](./preview.png) <!-- Add your actual screenshot here -->
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📂 Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React** – Component-based UI
+- **TypeScript** – Type safety
+- **Tailwind CSS** – Utility-first styling
+- **React Beautiful DnD** – Drag-and-drop support
+- **LocalStorage** – Persistent recipe data
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Getting Started
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/smart-recipe-builder.git
+cd smart-recipe-builder
