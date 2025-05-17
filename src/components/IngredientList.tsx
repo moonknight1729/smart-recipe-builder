@@ -70,9 +70,10 @@ const IngredientList: React.FC<Props> = ({
           ))}
         </ul>
       )}
+      
 
       {/* Edit Dialog */}
-      <dialog ref={dialogRef} className="rounded-xl p-6 max-w-md w-full dark:bg-gray-900 bg-white">
+      <dialog ref={dialogRef} className="relative top-[30%] left-[35%] rounded-xl p-6 max-w-md w-full dark:bg-gray-900 bg-white">
         <form
           method="dialog"
           className="flex flex-col gap-4"
